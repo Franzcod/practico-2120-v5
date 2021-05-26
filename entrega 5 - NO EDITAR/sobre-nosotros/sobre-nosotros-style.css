@@ -1,0 +1,55 @@
+
+#container{
+    background-color: rgb(247, 247, 247);
+    width: 100vw;
+    height: fit-content;
+    text-align: center;
+}
+#container #img-tipo{
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-image: url('https://www.adeccorientaempleo.com/wp-content/uploads/2020/03/Piloto-de-drones.jpg');
+}
+
+#container #texto-nosotros{
+    background-color: white;
+    padding: 20px;
+    max-width: 700px;
+    margin:  auto auto;
+}
+
+#container #texto-nosotros p{
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+#container #par-img{
+    display: flex;
+    flex-direction: row;
+}
+
+#container #par-img #img-1{
+    width: 50vw;
+    height: 20vh;
+    background-size: cover;
+    background-image: url('https://1.bp.blogspot.com/-dlSk31XSqCg/XQxVkWNRWKI/AAAAAAAHBTg/CnpIdX3LyUE2W9u2qE4ppLyvxsutuUppACLcBGAs/s1600/drone-inspection_01_image_h664.jpg');
+
+}
+
+#container #par-img #img-2{
+    width: 50vw;
+    height: 20vh;
+    background-size: cover;
+    background-image: url('https://lh3.googleusercontent.com/proxy/Z1eh_moZt9OPQTHlE0tnjEbTwpATRZbHVY5ewBQzVFziYsDyFTGoKsdTcSolGOCeGDgkgjqEOdBm4xYGT0rlBXz26UMvKlc7RFNbti7glTA94ryuZHY1gJVfhjiRcc2BRw');
+}
+
+@media (min-width: 767px){
+    #container #par-img #img-1{
+        height: 30vh;
+    }
+    #container #par-img #img-2{
+        height: 30vh;
+    }
+}

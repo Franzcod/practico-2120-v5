@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(255, 246, 246);
+}
+
+#container{
+    margin: 3vh auto;
+    width: 60%;
+    height: fit-content;
+    background-color: transparent;
+}
+
+#container #title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3vw;
+    padding: 10px;
+}
+
+#container #redes ul{
+    background-color: transparent;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#container #redes ul li{
+    margin: auto;
+    background-color: transparent;
+}
+
+#container #redes ul li a i{
+    color: black;
+    font-size: 6vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+}
+
+#container #redes ul li .title{
+    margin: auto;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+#cont-form{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #ccc 10px 10px 10px;
+    margin-bottom: 50px;
+}
+
+#cont-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+#cont-form form label{
+    margin: 10px;
+    font-size: 2vw;
+    font-family: monospace;
+    
+}
+#cont-form form input{
+    width: 30vw;
+    border: none;
+    border-bottom: 3px solid rgb(159, 238, 69);
+    padding: 5px;
+}
+
+#cont-form form textarea{
+    width: 30vw;
+    border: none;
+    border-bottom: 3px solid rgb(159, 238, 69);
+    padding: 5px;
+    height: 100px;
+}
+
+#cont-form form .cont-boton {
+    
+    
+    padding-top: 20px;
+}
+
+#cont-form form .cont-boton  button{
+    background-color: aquamarine;
+    color: rgb(73, 73, 73);
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 2vw;
+    box-shadow: rgb(230, 228, 228) 5px 5px 5px;
+    font-weight: 600;
+}
+
+#cont-form #cont-img{
+    width: 30vw;
+}
+
+#cont-form #cont-img img{
+    margin: 10px;
+    padding: 20px;
+    width: 28vw;
+}
+
+
+
+#cont-tel{
+    margin: 3vh auto;
+    width: 60%;
+    height: fit-content;
+    background-color: transparent;
+}
+
+#cont-tel #title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3vw;
+    padding: 10px;
+}
+
+#cont-tel #redes ul{
+    background-color: transparent;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+#cont-tel #redes ul li{
+    padding: 3vw;
+    margin: auto;
+    background-color: transparent;
+}
+
+#cont-tel #redes ul li a i{
+    color: black;
+    font-size: 7vw;
+    margin: 20px 45px;
+}
+
+#cont-tel #redes ul li p{
+    margin: auto;
+    text-align: center;
+    font-size: 2.5vw;
+    font-weight: 300;
+}
+
+
+@media (max-width: 768px){
+
+    
+
+    #cont-form #cont-img{
+        display: none;
+    }
+    #cont-form form input{
+        width: 60vw;
+    }
+    #cont-form form textarea{
+        width: 60vw;
+    }
+}

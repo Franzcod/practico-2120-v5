@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/contactanos/contactanos_style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Contactos</title>
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div id="container">
+    <p id="title">Buscanos en redes!</p>
+    <div id="redes">
+        <ul >
+            <li >
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <div class="title">Buzz Fly</div>
+                
+            </li>
+            <li >
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <div class="title">@Buzz-fly</div>
+                
+            </li>
+            <li >
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <div class="title">@Buzz-fly</div>
+                
+            </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="cont-form">
+    <form action="">
+        <label for="">Nombre</label>
+        <input type="text">
+        <label for="">Correo</label>
+        <input type="email" name="correo" id="">
+        <label for="">Mensaje</label>
+        <textarea id="subject" name="subject" placeholder="Escribe tus deseos.." ></textarea>
+        <div class="cont-boton">
+            <button type="submit">ENVIAR</button>
+        </div>
+    </form>
+    <div id="cont-img">
+        <img src="https://www.linksolution.com.ar/wp-content/uploads/2020/11/habilidades-call-center.jpg" alt="">
+    </div>
+  </div>
+
+
+    <div id="cont-tel">
+        <p id="title">Telefonos y Sucursales</p>
+        <div id="redes">
+            <ul >
+                <li >
+                    <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                    <p>Terrazas de Mayo</p>
+                    <p>Av. Pte. Arturo Illia, Av. San Miguel 3770, B1663 San Miguel</p>
+                    <p>0810-444-7025</p>
+                    <!-- 
+                    
+                     -->
+                </li>
+                <li >
+                    <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                    <p>Tortugas Open Mall</p>
+                    <p>Av. Olivos 4051 Local 122, Km 36,5 Panam.</p>
+                    <p>0810-444-7025</p>
+                    
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+  
+
+  <section class="services">
+      <div class="content">
+          <ul >
+              <li >
+                  <a href="https://www.dji.com/where-to-buy?site=brandsite&amp;from=homepage" ></a>
+                  <div class="img">
+                      <img   src="https://www1.djicdn.com/cms/uploads/94964ecb1bc4c100c42c93a814bd4733.svg">
+                  </div>
+                  <div class="title">Donde comprar</div>
+                  <a href="https://www.dji.com/where-to-buy?site=brandsite&amp;from=homepage">
+                      <div class="text">Leer mas</div>
+                  </a>
+              </li>
+              <li >
+                  <a href="https://www.dji.com/support?site=brandsite&amp;from=homepage"></a>
+                  <div class="img">
+                      <img  src="https://www1.djicdn.com/cms/uploads/60ff58dae8a3fffc6a6e292ce587ca46.svg">
+                  </div>
+                  <div class="title">Soporte</div>
+                  <a href="https://www.dji.com/support?site=brandsite&amp;from=homepage" >
+                      <div class="text">Leer mas</div>
+                  </a>
+              </li>
+              <li >
+                  <a href="https://www.dji.com/flysafe?site=brandsite&amp;from=homepage"></a>
+                  <div class="img">
+                      <img src="https://www1.djicdn.com/cms/uploads/e5878a0a23f0c8b05878dac1e0293dfd.svg">
+                  </div>
+                  <div class="title">Vuela Seguro</div>
+                  <a href="https://www.dji.com/flysafe?site=brandsite&amp;from=homepage" >
+                      <div class="text">Leer mas</div>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </section>
+  
+  
+  
+  <div id="footer"></div>
+
+  <div id="footer-fijo">
+    <p>Copyright © Francisco Palacios   </p>
+</div>
+
+    
+    <script>
+        $(document).ready(function () {
+          $('#header').load('../header.html');
+          $('#footer').load('../footer.html');
+          console.log('echo');
+        });
+    </script>
+
+    
+</body>
+</html>

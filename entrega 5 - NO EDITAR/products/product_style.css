@@ -1,0 +1,40 @@
+
+
+#cont-anim{
+    background-image: url('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/styles/950/public/media/image/2021/01/cielo-azul-2207291.jpg?itok=UTBkKMIj');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    /* animation-name: moverDrone; */
+}
+
+#cont-anim #img{
+    
+    position: relative;
+    top: 0vh;
+    left: 93vw;
+    width: 15vh;
+    animation-name: moverDrone;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes moverDrone {
+    0% {
+        left: 90vw; /* Primer fotograma */
+    } 
+    50% {
+        width: 40vh;
+        top: 8vh;
+        left: 50vw;
+    } 
+    100% {
+        left: -20vw;/* Último fotograma */
+        /* display: none; */
+        
+    }
+}
+    
+
+ 
